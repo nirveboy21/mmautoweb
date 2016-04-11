@@ -5,6 +5,16 @@ img {
 	height: auto;
 }
 
+body {
+	background-image: url("images/MatBackground.jpg");
+	background-size: 1500px 900px;
+	background-repeat: no-repeat;
+}
+
+.m_contact{
+	background-color: #fff;
+}
+
 .clearfix:before, .clearfix:after {display: table;content: "";}
 .clearfix:after {clear: both;}
 .center {text-align: center; margin: 0 auto;}
