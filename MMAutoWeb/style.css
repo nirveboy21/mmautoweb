@@ -1,19 +1,82 @@
-
-
 img {
 	max-width: 100%;
 	height: auto;
 }
-
 body {
 	background-image: url("images/MatBackground.jpg");
 	background-size: 1500px 900px;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
+	font-family: helvetica;
 }
-
-.m_contact{
+.frame-background{
+	max-width: 1200px;
+	margin: auto;
+}
+.body-frame{
+	max-width: 974px;
+	margin: auto;
+}
+.header-frame{
+	background-color: black;
+	width: 100%;
+}
+.family-pic{
+	display: inline-block;
+	width: 887px;
+}
+.fam-sen{
+	display: inline-block;
+}
+.block-background{
 	background-color: #fff;
 }
+.m-contact{
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+}
+.ase-logo{
+	width: 115px;
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.google-map{
+	display: inline-block;
+}
+.large-ase{
+	width: 400px;
+}
+.large-ase img{
+	height: 300px;
+}
+.m-contact a{
+	text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+.m-contact p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.disclaimer{
+	font-size: 10px;
+}
+.phone-num{
+	margin-top: 8px;
+}
+.address{
+	margin-top: 15px;
+}
+#street-address{
+	display: -webkit-inline-box;
+}
+.main-service{
+	max-width: 50%;
+	display: inline-block;
+}
+
+
 
 .clearfix:before, .clearfix:after {display: table;content: "";}
 .clearfix:after {clear: both;}
@@ -53,9 +116,9 @@ background-clip:padding-box !important;
 .mo_half {width:50%;margin-left:0px}
 .menu:before {content: "\2261"}
 .debug:after {content: "0-320"}
+.nomo {display: none;}
 #gallery{
 	margin-top: 0px;
-	
 }
 
 }
@@ -64,6 +127,7 @@ background-clip:padding-box !important;
 .mo_full {width:100%;margin-left:0px}
 .mo_half {width:50%;margin-left:0px}
 .debug:after {content: "321-599"}
+.nomo {display: none;}
 #gallery{
 	margin-top: 0px;
 	
@@ -72,16 +136,20 @@ background-clip:padding-box !important;
 @media screen and (min-width: 600px) and (max-width: 767px) {
 .mo_full {width:100%;margin-left:0px}
 .mo_half {width:50%;margin-left:0px}
+.nomo {display: none;}
 .debug:after {content: "600-767"}
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 .debug:after {content: "768-1023"}
+.shomo {display: none;}
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
 .debug:after {content: "1024-1279"}
+.shomo {display: none;}
 }
 @media screen and (min-width: 1280px) {
 .debug:after {content: "1280+"}
+.shomo {display: none;}
 }
 
 
