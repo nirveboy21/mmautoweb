@@ -3,8 +3,8 @@ img {
 	height: auto;
 }
 body {
-	background-image: url("images/MatBackground.jpg");
-	background-size: 1500px 900px;
+	background-image: url("images/diamondplate.png");
+	background-size: auto;
 	background-repeat: repeat;
 	font-family: helvetica;
 }
